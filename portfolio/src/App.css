@@ -1,33 +1,108 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(
+    to right bottom,
+    #283d89,
+    #274a97,
+    #2557a4,
+    #2364b1,
+    #2171be,
+    #1382cb,
+    #0292d8,
+    #00a3e3,
+    #00baed,
+    #00d1f2,
+    #26e6f3,
+    #5ffbf1
+  );
+}
+/* Navbar */
+.Navbar {
+  display: flex;
+  justify-content: space-around;
+  width: 50vw;
+  background: rgba(200, 240, 255, 0.5);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+/* HomePage */
+.Home {
+  display: flex;
+  height: 100vh;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Jumbotron {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  height: 30vh;
+  width: 70vw;
+  background: white;
+  text-align: center;
+  border-radius: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Navbar h3 {
+  cursor: pointer;
+}
+
+/* Projects Page */
+.Projects {
+  display: flex;
+  height: 120vh;
+  flex-direction: column;
+  justify-content: center;
+  width: 60vw;
+}
+
+.row {
+  display: flex;
+  height: 20%;
+  margin-top: 15px;
+}
+.wrapper {
+  width: 100%;
+}
+.project {
+  height: 100%;
+  cursor: pointer;
+}
+.title-card {
+  display: inline;
+  background-image: linear-gradient(
+    to right top,
+    #142f7c,
+    #183a8b,
+    #1b459b,
+    #1e50aa,
+    #1f5cba,
+    #1570cd,
+    #0884df,
+    #0098f0,
+    #00b7ff,
+    #00d3f8,
+    #00ebdd,
+    #30ffb7
+  );
+  text-align: center;
+  width: 25%;
+  padding: 5px;
+  text-decoration: none;
+  border-radius: 25px;
+  box-shadow: 5px 5px 10px black;
+}
+/* About Page */
+.About {
+  height: 100vh;
+}
+
+.About-Text {
+  height: 40vh;
+  width: 50vw;
+  border: 2px solid white;
+  border-radius: 10px;
 }
