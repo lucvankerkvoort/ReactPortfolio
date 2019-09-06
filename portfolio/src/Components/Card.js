@@ -6,7 +6,7 @@ class Card extends React.Component {
     const { image, name, link } = this.props;
     const project = {
       display: "flex",
-      boxShadow: `2px 2px 5px black`,
+      boxShadow: `5px 5px 10px black`,
       color: "white",
       width: "100%",
       borderRadius: "25px",

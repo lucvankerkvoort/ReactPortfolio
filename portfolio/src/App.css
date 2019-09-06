@@ -46,8 +46,10 @@
   flex-direction: column;
   height: 30vh;
   width: 70vw;
-  background: white;
+  color: white;
+  background: black;
   text-align: center;
+  box-shadow: 10px 10px 10px black;
   border-radius: 10px;
 }
 
@@ -94,7 +96,7 @@
   padding: 5px;
   text-decoration: none;
   border-radius: 25px;
-  box-shadow: 5px 5px 10px black;
+  box-shadow: 7px 7px 10px black;
 }
 /* About Page */
 .About {
