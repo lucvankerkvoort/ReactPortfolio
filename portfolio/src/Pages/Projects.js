@@ -6,29 +6,15 @@ class Projects extends React.Component {
   render() {
     return (
       <div className="Projects">
-        <div className="row">
-          <Card
-            name={prjct.Locals.name}
-            image={prjct.Locals.image}
-            link={prjct.Locals.link}
-          />
-        </div>
-        <div className="row">
-          <Card
-            name={prjct.GoogleBooks.name}
-            image={prjct.GoogleBooks.image}
-            link={prjct.GoogleBooks.link}
-          />
-        </div>
-        <div className="row">
-          <Card />
-        </div>
-        <div className="row">
-          <Card />
-        </div>
-        <div className="row">
-          <Card />
-        </div>
+        {prjct.map(project => (
+          <div className="row">
+            <Card
+              name={project.name}
+              image={project.image}
+              link={project.link}
+            />
+          </div>
+        ))}
       </div>
     );
   }
