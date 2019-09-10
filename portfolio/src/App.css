@@ -19,6 +19,9 @@
   );
 }
 /* Navbar */
+.Navbar-Container {
+  z-index: 15;
+}
 .Navbar {
   display: flex;
   justify-content: space-around;
@@ -26,18 +29,22 @@
   background: rgba(200, 240, 255, 0.5);
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
+  box-shadow: 0px 0px 10px black;
 }
 
 .Navbar h3 {
   color: white;
   cursor: pointer;
+  z-index: 15;
+  text-shadow: 1px 1px black;
 }
 
 /* HomePage */
 .Home {
   display: flex;
-  height: 100vh;
+  height: 80vh;
   justify-content: center;
+  z-index: 15;
 }
 
 .Jumbotron {
@@ -46,26 +53,56 @@
   flex-direction: column;
   height: 30vh;
   width: 70vw;
-  color: white;
+  color: whitesmoke;
   background: black;
   text-align: center;
-  box-shadow: 10px 10px 10px black;
+  box-shadow: 5px 5px 5px black;
   border-radius: 10px;
+  background: linear-gradient(
+    to right top,
+    rgba(20, 47, 124, 0.7),
+    rgba(24, 58, 139, 0.7),
+    rgba(132, 38, 136, 0.7),
+    rgba(30, 80, 170, 0.7),
+    rgba(31, 92, 186, 0.7),
+    rgba(21, 112, 205, 0.7),
+    rgba(8, 132, 223, 0.7),
+    rgba(0, 152, 240, 0.7),
+    rgba(0, 183, 255, 0.7),
+    rgba(0, 211, 248, 0.7),
+    rgba(0, 235, 221, 0.7),
+    rgba(48, 255, 183, 0.7)
+  );
+  z-index: 15;
+}
+.Jumbotron h1 {
+  color: white;
+  text-shadow: 1px 2px black;
 }
 
+.Jumbotron h2 {
+  color: white;
+  text-shadow: 1px 2px black;
+}
 /* Projects Page */
 .Projects {
   display: flex;
-  height: 120vh;
+  height: 90vh;
   flex-direction: column;
   justify-content: center;
-  width: 60vw;
+  width: 40vw;
+  z-index: 15;
 }
 
+.background {
+  height: 100%;
+  z-index: 1;
+}
 .row {
   display: flex;
   height: 20%;
   margin-top: 15px;
+  z-index: 15;
 }
 .wrapper {
   width: 100%;
@@ -76,23 +113,22 @@
 }
 .title-card {
   display: inline;
-  background-image: linear-gradient(
+  background: linear-gradient(
     to right top,
-    #142f7c,
-    #183a8b,
-    #1b459b,
-    #1e50aa,
-    #1f5cba,
-    #1570cd,
-    #0884df,
-    #0098f0,
-    #00b7ff,
-    #00d3f8,
-    #00ebdd,
-    #30ffb7
+    rgba(114, 142, 219, 1),
+    rgba(24, 58, 139, 1),
+    rgba(30, 80, 170, 1),
+    rgba(31, 92, 186, 1),
+    rgba(21, 112, 205, 1),
+    rgba(8, 132, 223, 1),
+    rgba(0, 152, 240, 1),
+    rgba(0, 183, 255, 1),
+    rgba(0, 211, 248, 1),
+    rgba(0, 235, 221, 1),
+    rgba(48, 255, 183, 1)
   );
   text-align: center;
-  width: 25%;
+  width: 40%;
   padding: 5px;
   text-decoration: none;
   border-radius: 25px;
@@ -100,12 +136,39 @@
 }
 /* About Page */
 .About {
-  height: 100vh;
+  display: flex;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  z-index: 15;
 }
-
+.p-text {
+  z-index: 20;
+  text-shadow: 1px 1px black;
+  color: white;
+}
 .About-Text {
+  z-index: 15;
   height: 40vh;
-  width: 50vw;
-  border: 2px solid white;
+  width: 60vw;
+  background: linear-gradient(
+    to right top,
+    rgba(20, 47, 124, 0.7),
+    rgba(24, 58, 139, 0.7),
+    rgba(132, 38, 136, 0.7),
+    rgba(30, 80, 170, 0.7),
+    rgba(31, 92, 186, 0.7),
+    rgba(21, 112, 205, 0.7),
+    rgba(8, 132, 223, 0.7),
+    rgba(0, 152, 240, 0.7),
+    rgba(0, 183, 255, 0.7),
+    rgba(0, 211, 248, 0.7),
+    rgba(0, 235, 221, 0.7),
+    rgba(48, 255, 183, 0.7)
+  );
+  box-shadow: 10px 10px 25px black;
+  padding: 25px;
+  text-align: center;
+  white-space: pre-line;
   border-radius: 10px;
 }

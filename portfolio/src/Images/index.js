@@ -22,6 +22,8 @@ import project2 from "./project-background2.jpg";
 import project3 from "./project-background3.jpg";
 import project4 from "./project-background4.jpg";
 
+import profile from "./me.jpg";
+
 // Projects Array with info about the projects
 export const prjct = [
   {
@@ -54,3 +56,5 @@ export const about = [about1, about2, about3, about4];
 
 // Array of images for Project page
 export const project = [project1, project2, project3, project4];
+
+export const me = [profile];

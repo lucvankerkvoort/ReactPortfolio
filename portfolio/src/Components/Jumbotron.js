@@ -4,8 +4,8 @@ class Jumbotron extends React.Component {
   render() {
     return (
       <div className="Jumbotron">
-        <h2>Luc van Kerkvoort</h2>
-        <h4>Full Stack Javascript Developer</h4>
+        <h1>Luc van Kerkvoort</h1>
+        <h2>Full Stack Javascript Developer</h2>
       </div>
     );
   }
