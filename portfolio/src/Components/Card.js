@@ -8,17 +8,18 @@ class Card extends React.Component {
       display: "flex",
       boxShadow: `5px 5px 10px black`,
       color: "white",
-      width: "100%",
+      width: "40vw",
       borderRadius: "25px",
       alignItems: "flex-end",
       justifyContent: "center",
       background: `url(${image})`,
       backgroundSize: "cover",
-      backgroundPosition: "center"
+      backgroundPosition: "center",
+      zIndex: "15"
     };
     return (
       <div className="wrapper">
-        <a href={link} target="_blank">
+        <a href={link} target="_blank" rel="noopener noreferrer">
           <div className="project" style={project}>
             <p className="title-card">{name}</p>
           </div>

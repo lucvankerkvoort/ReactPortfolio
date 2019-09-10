@@ -22,7 +22,12 @@ import project2 from "./project-background2.jpg";
 import project3 from "./project-background3.jpg";
 import project4 from "./project-background4.jpg";
 
+// Profile-picture
 import profile from "./me.jpg";
+
+// Project icons images
+import yellowStar from "./yellow-star-icon.png";
+import blackStar from "./black-star-icon.png";
 
 // Projects Array with info about the projects
 export const prjct = [
@@ -58,3 +63,5 @@ export const about = [about1, about2, about3, about4];
 export const project = [project1, project2, project3, project4];
 
 export const me = [profile];
+
+export const icons = [yellowStar, blackStar];

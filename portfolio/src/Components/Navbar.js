@@ -11,13 +11,13 @@ class Navbar extends React.Component {
       <div className="Navbar-Container">
         <div className="Navbar">
           <Link to="/" style={style}>
-            <h3>Home</h3>
+            <h3 className="navbar-item home">Home</h3>
           </Link>
           <Link to="/about" style={style}>
-            <h3>About</h3>
+            <h3 className="navbar-item about">About</h3>
           </Link>
           <Link to="/projects" style={style}>
-            <h3>Projects</h3>
+            <h3 className="navbar-item project">Projects</h3>
           </Link>
         </div>
       </div>
