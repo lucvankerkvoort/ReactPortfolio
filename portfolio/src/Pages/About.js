@@ -10,7 +10,7 @@ class About extends React.Component {
         <div className="About">
           <div className="About-Text">
             <p className="p-text">
-              I am Luc van Kerkvoort, a 29 year old Full Stack Webdeveloper.{" "}
+              I am Luc van Kerkvoor a Full Stack Webdeveloper.
               <br /> I was born in The Netherlands and lived most of my life in
               Amsterdam.
               <br />
@@ -30,70 +30,34 @@ class About extends React.Component {
           <div className="skills-and-profile">
             <div className="profile-picture" />
             <div className="skillset">
+            <h2>Skillset</h2>
               <ul>
                 <li>
-                  Javascript <img src={icons[0]} alt="yellow-star" />
-                  <img src={icons[0]} alt="yellow-star" />
-                  <img src={icons[0]} alt="yellow-star" />
-                  <img src={icons[0]} alt="yellow-star" />
-                  <img src={icons[1]} alt="black-star" />
+                  Javascript 
                 </li>
                 <li>
-                  MongoDB <img src={icons[0]} alt="yellow-star" />
-                  <img src={icons[0]} alt="yellow-star" />
-                  <img src={icons[0]} alt="yellow-star" />
-                  <img src={icons[1]} alt="black-star" />
-                  <img src={icons[1]} alt="black-star" />
+                  MongoDB
                 </li>
                 <li>
                   ExpressJS
-                  <img src={icons[0]} alt="yellow-star" />
-                  <img src={icons[0]} alt="yellow-star" />
-                  <img src={icons[0]} alt="yellow-star" />
-                  <img src={icons[0]} alt="yellow-star" />
-                  <img src={icons[1]} alt="black-star" />
                 </li>
                 <li>
                   ReactJS
-                  <img src={icons[0]} alt="yellow-star" />
-                  <img src={icons[0]} alt="yellow-star" />
-                  <img src={icons[0]} alt="yellow-star" />
-                  <img src={icons[1]} alt="black-star" />
-                  <img src={icons[1]} alt="black-star" />
                 </li>
                 <li>
                   NodeJS
-                  <img src={icons[0]} alt="yellow-star" />
-                  <img src={icons[0]} alt="yellow-star" />
-                  <img src={icons[0]} alt="yellow-star" />
-                  <img src={icons[0]} alt="yellow-star" />
-                  <img src={icons[1]} alt="black-star" />
                 </li>
                 <li>
                   HTML
-                  <img src={icons[0]} alt="yellow-star" />
-                  <img src={icons[0]} alt="yellow-star" />
-                  <img src={icons[0]} alt="yellow-star" />
-                  <img src={icons[0]} alt="yellow-star" />
-                  <img src={icons[0]} alt="yellow-star" />
                 </li>
                 <li>
                   CSS
-                  <img src={icons[0]} alt="yellow-star" />
-                  <img src={icons[0]} alt="yellow-star" />
-                  <img src={icons[0]} alt="yellow-star" />
-                  <img src={icons[0]} alt="yellow-star" />
-                  <img src={icons[0]} alt="yellow-star" />
                 </li>
                 <li>
                   MySQL
-                  <img src={icons[0]} alt="yellow-star" />
-                  <img src={icons[0]} alt="yellow-star" />
-                  <img src={icons[0]} alt="yellow-star" />
-                  <img src={icons[0]} alt="yellow-star" />
-                  <img src={icons[1]} alt="black-star" />
                 </li>
               </ul>
+
             </div>
           </div>
         </div>

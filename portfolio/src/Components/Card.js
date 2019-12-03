@@ -15,6 +15,8 @@ class Card extends React.Component {
       background: `url(${image})`,
       backgroundSize: "cover",
       backgroundPosition: "center",
+      overFlow: "hidden",  
+      whiteSpace: "nowrap",
       zIndex: "15"
     };
     return (
