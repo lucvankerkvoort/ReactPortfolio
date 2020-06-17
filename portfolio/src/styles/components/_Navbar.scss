@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  height: 10vh;
+  width: 100%;
+  box-shadow: 4px 0px 5px gray;
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    white-space: nowrap;
+
+    color: black;
+    text-shadow: 1px 1px 2px gray;
+    font-size: 1em;
+  }
+  .navbar-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    p {
+      color: black;
+      text-shadow: 1px 1px 2px gray;
+    }
+  }
+}

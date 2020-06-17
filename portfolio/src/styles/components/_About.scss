@@ -1,0 +1,102 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 150vh;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 15px 15px 10px gray;
+    color: white;
+    text-shadow: 2px 2px purple;
+    width: 87%;
+    background-image: linear-gradient(
+      to right top,
+      #051937,
+      #003e64,
+      #006885,
+      #009292,
+      #00bc8d
+    );
+  }
+  .picture {
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
+    .me {
+      height: 250px;
+      width: 250px;
+      background: url("https://media-exp1.licdn.com/dms/image/C4E03AQE1iqPpMeejKg/profile-displayphoto-shrink_400_400/0?e=1597881600&v=beta&t=MN3Kp3iObD1zZO4YRzDhNpxeJp6GjXTWBis1n4w1VP0");
+      background-size: contain;
+      box-shadow: 6px 6px 5px gray;
+      border-radius: 50%;
+    }
+  }
+  .skillset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 50vh;
+    .skillset_card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+      color: white;
+      text-shadow: 2px 2px purple;
+      width: 80%;
+      box-shadow: 12px 12px 8px gray;
+      height: 120%;
+      background-image: linear-gradient(
+        to right top,
+        #051937,
+        #003e64,
+        #006885,
+        #009292,
+        #00bc8d
+      );
+      ul {
+        list-style-type: none;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .about {
+    flex-direction: row;
+    .text {
+      height: 90vh;
+      width: 50vw;
+      padding: 20px;
+      margin: 50px;
+    }
+    .picture {
+      height: 40vh;
+      width: 50vw;
+    }
+    .skillset {
+      .skillset_card {
+        width: 50%;
+        height: 100%;
+      }
+    }
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
